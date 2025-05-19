@@ -17,15 +17,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <style>
         body {
             font-family: 'Segoe UI', sans-serif;
-            background: url('Images/background.jpg') no-repeat center center fixed;
+            background: url('Images/Background1.jpg') no-repeat center center fixed;
             background-size: cover;
             margin: 0;
             padding: 40px;
         }
 
         h1 {
+            font-size: 50px;
             color: #f8f8f8;
-            Font-family: CuteNotes;
+            Font-family: Arial;
             text-align: center;
             text-shadow: 2px 2px 5px #000;
             margin-bottom: 30px;

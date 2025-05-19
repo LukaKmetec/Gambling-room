@@ -2,15 +2,15 @@
 
 Simulacija igre s tremi uporabniki, kjer vsak vrže 3 kocke. Na koncu se izračuna zmagovalec z največjim seštevkom. V primeru neodločenega rezultata se izpišejo vsi zmagovalci.
 
-## 📌 Avtor
+## Avtor
 
-**Ime:** Jan Tavčar Kukanja
+**Ime:** Luka Kmetec
 **Projekt ustvarjen:** maj 2025  
 **Tehnologije:** PHP, HTML, CSS, JavaScript, XAMPP (Apache), sejna podpora (`$_SESSION`)
 
 ---
 
-## 🧩 Funkcionalnosti
+## Funkcionalnosti
 
 - Vnos 3 uporabnikov (ime, priimek, naslov)
 - Za vsakega uporabnika se simulira met 3 igralnih kock (naključna števila 1–6)
@@ -22,7 +22,7 @@ Simulacija igre s tremi uporabniki, kjer vsak vrže 3 kocke. Na koncu se izraču
 
 ---
 
-## 🚀 Zagon projekta z XAMPP
+## Zagon projekta z XAMPP
 
 ### 1. Namesti [XAMPP](https://www.apachefriends.org/index.html)
 

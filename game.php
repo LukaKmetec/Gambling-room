@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $_SESSION['users'][] = [
             'ime' => $_POST['ime'][$i],
             'priimek' => $_POST['priimek'][$i],
-            'naslov' => $_POST['naslov'][$i]
+
         ];
     }
 }
@@ -25,7 +25,7 @@ function izrisi_kocko($vrednost) {
     <style>
         body {
             font-family: 'Segoe UI', sans-serif;
-            background: url('Images/background.jpg') no-repeat center center fixed;
+            background: url('Images/Background1.jpg') no-repeat center center fixed;
             background-size: cover;
             margin: 0;
             padding: 40px;
@@ -33,8 +33,9 @@ function izrisi_kocko($vrednost) {
         }
 
         h1 {
+            font-size: 50px;
             text-align: center;
-            font-family: CuteNotes;
+            font-family: Arial;
             color: #fff;
             text-shadow: 2px 2px 6px #000;
         }
@@ -61,14 +62,14 @@ function izrisi_kocko($vrednost) {
         }
 
         .shake {
-            animation: shake 0.6s ease-in-out;
+            animation: shake 1.2s ease-in-out;
         }
 
         @keyframes shake {
             0% { transform: rotate(0deg); }
-            25% { transform: rotate(10deg); }
-            50% { transform: rotate(-10deg); }
-            75% { transform: rotate(6deg); }
+            25% { transform: rotate(20deg); }
+            50% { transform: rotate(-20deg); }
+            75% { transform: rotate(10deg); }
             100% { transform: rotate(0deg); }
         }
 

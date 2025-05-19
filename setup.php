@@ -9,7 +9,7 @@ session_start();
     <style>
         body {
             font-family: 'Segoe UI', sans-serif;
-            background: url('Images/background.jpg') no-repeat center center fixed;
+            background: url('Images/Background1.jpg') no-repeat center center fixed;
             background-size: cover;
             margin: 0;
             padding: 40px;
@@ -17,8 +17,9 @@ session_start();
         }
 
         h1 {
+            font-size: 60px;
             text-align: center;
-            Font-family: CuteNotes;
+            font-family: Arial;
             text-shadow: 2px 2px 6px #000;
             margin-bottom: 30px;
         }
@@ -65,6 +66,7 @@ session_start();
             background-color: #a93226;
             box-shadow: 0 0 20px rgba(255, 80, 80, 0.8);
             transform: scale(1.05);
+
         }
         @font-face {
             font-family: 'CuteNotes';
@@ -92,7 +94,7 @@ session_start();
             <?php endfor; ?>
         </select>
 
-        <input type="submit" value="Naprej na vnos igralcev">
+        <input type="submit" value="Naprej na vnos igralcev" style="width=500px;">
     </form>
 </body>
 </html>
