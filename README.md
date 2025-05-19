@@ -41,4 +41,4 @@ Simulacija igre s tremi uporabniki, kjer vsak vrže 3 kocke. Na koncu se izraču
 ### 4. Odpri aplikacijo v brskalniku
 
 ```bash
-http://localhost/dice_game/
+http://localhost/Gambling-room-main/
